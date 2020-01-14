@@ -1,4 +1,4 @@
-FROM abernix/meteord:node-8.16.3-base
+FROM abernix/meteord:node-8.16.1-base
 
 # Install Chrome
 RUN apt-get update && apt-get install -y wget --no-install-recommends \
